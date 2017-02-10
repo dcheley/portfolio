@@ -2,7 +2,8 @@
   //HTML Elements
   var board = document.getElementById('board');
   var boxes = document.querySelectorAll('li');
-  var reset = document.getElementById('reset');
+  var restart = document.getElementById('restart');
+
   var displayTurn = document.getElementById('player-turn');
   var alerts = document.getElementById('alerts');
   var displayOneScore = document.getElementById('p1-score');
@@ -30,7 +31,7 @@
     for (var i = 0; i < boxes.length; i++) {
       boxes[i].addEventListener('click', clickHandler, false);
       }
-      reset.addEventListener('click', resetHandler, false);
+      restart.addEventListener('click', resetHandler, false);
   }
   //Track current turn
   var computeScenario = function() {
@@ -121,6 +122,21 @@
     for(var i = 0; i < boxes.length; i++) {
       boxes[i].removeEventListener('click', clickHandler);
     }
+  }
+
+  //Reset player score
+  var resetScore = function() {
+    this.addEventListener('click', clickHandler);
+
+    this.className = reset;
+    this.innerHTML = reset;
+    switch(computeScenario()) {
+      case 'x':
+        displayOneScore.innerHTML = 0;
+        break;
+      case 'o':
+        displayTwoScore.innerHTML = 0;
+      }
   }
 
   //Restart game
