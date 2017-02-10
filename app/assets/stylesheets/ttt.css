@@ -1,0 +1,103 @@
+body {
+    background: #A52A2A;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 0.1em;
+    color: #f1f1f1
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#board {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #dadada;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#board > li {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    text-decoration:none;
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#board > li.x {
+    font-size: 40px;
+    color: #E9967A;
+}
+
+#board > li.o {
+    font-size: 40px;
+    color: #778899;
+}
+
+#board > li:hover {
+    background: #f9f9f9;
+}
+
+#board > li:active {
+    width: 100px;
+    height: 100px;
+    border: 0;
+}
+
+#info {
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#player-turn > span,
+#alerts > span {
+    display: none;
+}
+
+#player-turn.x span.x,
+#player-turn.o span.o,
+#alerts.px-win > span.px-win,
+#alerts.po-win > span.po-win,
+#alerts.draw > span.draw {
+    display: block;
+    margin-top: 20px;
+}
+
+#reset {
+    text-align: center;
+        border: none;
+        padding: 0.6em 1.2em;
+        background: black;
+        color: #fff;
+        font-size: 1em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        margin: 3px 2px;
+        border-radius: 2px;
+}
