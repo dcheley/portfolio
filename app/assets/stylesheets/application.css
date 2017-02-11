@@ -40,3 +40,7 @@ body {
 .collapsible-body {
   padding-top: 0 !important;
 }
+
+.page {
+  height: 600px;
+}
