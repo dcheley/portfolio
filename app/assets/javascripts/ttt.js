@@ -1,7 +1,7 @@
 (function Game() {
   //HTML Elements
   var board = document.getElementById('board');
-  var boxes = document.querySelectorAll('li');
+  var boxes = document.getElementsByClassName('box');
   var restart = document.getElementById('restart');
   var resetOne = document.getElementById('reset-1');
   var resetTwo = document.getElementById('reset-2');
