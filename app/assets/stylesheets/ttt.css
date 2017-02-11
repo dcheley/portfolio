@@ -54,11 +54,11 @@
 #player-turn > span,
 #alerts > span {
   display: none;
-  color: #9e9e9e;
+  color: #b71c1c;
 }
 
 #score > span {
-  color: #9e9e9e;
+  color: #b71c1c
 }
 
 #player-turn.x span.x,
