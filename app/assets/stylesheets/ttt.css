@@ -1,6 +1,6 @@
-.background {
+/*.background {
     background: #A52A2A;
-}
+}*/
 
 #board {
     width: 300px;
@@ -31,12 +31,12 @@
 
 #board > li.x {
     font-size: 40px;
-    color: #E9967A;
+    color: #b71c1c;
 }
 
 #board > li.o {
     font-size: 40px;
-    color: #778899;
+    color: #37474f;
 }
 
 #board > li:hover {
@@ -78,8 +78,8 @@
     text-align: center;
         border: none;
         padding: 0.6em 1.2em;
-        background: black;
-        color: #fff;
+        background: #bdbdbd;
+        color: black;
         font-size: 1em;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -93,8 +93,8 @@
     text-align: center;
         border: none;
         padding: 0.4em 0.6em;
-        background: black;
-        color: #fff;
+        background: #bdbdbd;
+        color: black;
         font-size: 1em;
         letter-spacing: 1px;
         text-transform: uppercase;
