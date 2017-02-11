@@ -2,7 +2,7 @@ body {
     background: #A52A2A;
     color: #fff;
     font-family: Helvetica;
-    font-weight: bold;
+    font-weight: 100 !important;
     text-align: center;
 }
 
@@ -15,7 +15,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.container {
+.containerz {
     margin: 0 auto;
     width: 400px;
 }
@@ -23,7 +23,7 @@ h2 {
 #board {
     width: 300px;
     height: 300px;
-    border: 1px solid #dadada;
+    /*border: 1px solid #dadada;*/
     margin: 0 auto;
     padding: 0;
     margin-bottom: 20px;
