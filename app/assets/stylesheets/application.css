@@ -45,7 +45,7 @@ body {
   height: 700px;
 }
 
-.welcome {
+.welcome, .play {
   margin-top: 60px;
   color: #bdbdbd;
 }
