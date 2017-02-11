@@ -44,3 +44,8 @@ body {
 .page {
   height: 600px;
 }
+
+.welcome {
+  margin-top: 60px;
+  color: #bdbdbd;
+}
