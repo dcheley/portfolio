@@ -19,6 +19,10 @@
    font-family: Helvetica;
  }
 
+.side-nav.fixed {
+  width: 195px;
+}
+
 .brand-logo {
   padding-top: 7px !important;
   background-color: black;
