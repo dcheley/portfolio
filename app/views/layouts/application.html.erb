@@ -15,25 +15,28 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col s12 m9 l10">
-          <%= yield %>
-        </div>
-
-        <div class="col hide-on-small-only m3 l2">
-          <div class="toc-wrapper pin-top" style="top: 0px;">
-            <ul class="section table-of-contents right">
-              <li><a href="#intro" class="">Intro</a></li>
-              <li><a href="#skills" class="">Skills</a></li>
-              <li><a href="#play" class="">Play</a></li>
-              <li><a href="#projects" class="">Projects</a></li>
-              <li><a href="#about" class="">About Me</a></li>
-              <li><a href="#contact" class="">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <%= yield %>
     </div>
+
+    <ul id="nav-mobile" class="side-nav fixed" style="transform: translateX(0%);">
+      <a href="/" class="brand-logo"><%= image_tag('icon-logo.ico') %></a>
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold"><a class="collapsible-header active waves-effect waves-black">NAV</a>
+            <div class="collapsible-body" style="display: block;">
+              <ul>
+                <li><a href="/" class="waves-effect waves-black">INTRO</a></li>
+                <li><a href="/" class="waves-effect waves-black">PLAY</a></li>
+                <li><a href="/" class="waves-effect waves-black">SKILLS</a></li>
+                <li><a href="/" class="waves-effect waves-black">PROJECTS</a></li>
+                <li><a href="/" class="waves-effect waves-black">ABOUT</a></li>
+                <li><a href="/" class="waves-effect waves-black">CONTACT</a></li>
+                <li class="active"><a href="pushpin.html">???</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+    </ul>
+
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="/assets/materialize.js"></script>

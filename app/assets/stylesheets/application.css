@@ -13,7 +13,10 @@
  *= require_tree .
  *= require_self
  */
+.brand-logo {
+  padding-top: 7px !important;
+}
 
- nav .brand-logo {
-   padding: 7px !important;
- }
+.collapsible-body {
+  padding-top: 0 !important;
+}
