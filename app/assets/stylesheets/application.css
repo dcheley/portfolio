@@ -13,6 +13,12 @@
  *= require_tree .
  *= require_self
  */
+ body {
+   background: black;
+   text-align: center;
+   font-family: Helvetica;
+ }
+
 .brand-logo {
   padding-top: 7px !important;
   background-color: black;
