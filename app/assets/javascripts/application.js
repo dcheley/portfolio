@@ -2,4 +2,4 @@
 //= require materialize
 $(document).ready( function() {
 
-})
+});
