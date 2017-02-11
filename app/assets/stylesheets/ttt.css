@@ -2,10 +2,6 @@
     background: #A52A2A;
 }
 
-h3, h4 {
-  text-transform: uppercase;
-}
-
 #board {
     width: 300px;
     height: 300px;
