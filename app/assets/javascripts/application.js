@@ -2,7 +2,7 @@
 //= require materialize
 $(document).ready( function() {
   $('body').hide();
-  $('body').fadeIn(3000);
+  $('body').fadeIn(5000);
   $(".play").hide();
   $(".background").hide();
   $(window).scroll(function() {
@@ -11,7 +11,7 @@ $(document).ready( function() {
     var scroll_pos_test_2 = 190;
 
     if(y_scroll_pos > scroll_pos_test) {
-      $(".play").fadeIn(3000);
+      $(".play").fadeIn(5000);
     }
 
     if(y_scroll_pos > scroll_pos_test_2) {
