@@ -15,6 +15,15 @@
  */
 .brand-logo {
   padding-top: 7px !important;
+  background-color: black;
+}
+
+.brand-logo img {
+  height: 32px;
+}
+
+.collapsible-header {
+  font-weight: bold !important;
 }
 
 .collapsible-body {
