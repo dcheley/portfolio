@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
 body {
   background: black;
   text-align: center;
@@ -47,4 +46,51 @@ body {
 
 .welcome, .play {
   color: #bdbdbd;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:10px;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+  width:110px;
+	font-weight:bold;
+	font-size:13px;
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	border-radius:10px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+  color: #616161; 
 }

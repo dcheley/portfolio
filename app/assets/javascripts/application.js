@@ -14,4 +14,9 @@ $(document).ready( function() {
       $(".background").fadeIn(5000);
     }
   });
+  $('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+			width:$(this).attr('data-percent')
+		}, 6000);
+	});
 });
