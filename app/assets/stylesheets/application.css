@@ -70,7 +70,7 @@ body {
 .skillbar-title span {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
+	padding-bottom: 5px;
 	height:35px;
 	line-height:35px;
 	border-top-left-radius:10px;
@@ -78,6 +78,8 @@ body {
 }
 
 .skillbar-title img {
+  padding-top: 5px;
+  padding-right: 3px;
   height: 32px;
   width: 32px;
 }
