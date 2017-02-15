@@ -40,6 +40,12 @@ body {
   padding-top: 0 !important;
 }
 
+.nav-links a.waves-effect {
+  width: 140px;
+  padding-right: 15px !important;
+  padding-left: 25px !important;
+}
+
 .page {
   height: 550px;
 }
