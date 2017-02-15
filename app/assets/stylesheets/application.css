@@ -48,6 +48,10 @@ body {
   color: #bdbdbd;
 }
 
+.skills {
+  color: #8B0000;
+}
+
 .skillbar {
 	position:relative;
 	display:block;
@@ -70,7 +74,6 @@ body {
 .skillbar-title span {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
-	padding-bottom: 5px;
 	height:35px;
 	line-height:35px;
 	border-top-left-radius:10px;
