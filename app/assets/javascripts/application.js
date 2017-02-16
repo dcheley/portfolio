@@ -1,5 +1,5 @@
 //= require jquery
-//= require materialize
+//= require materialize.min
 $(document).ready( function() {
   $('body').hide();
   $('body').fadeIn(5000);
