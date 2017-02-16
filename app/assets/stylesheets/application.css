@@ -111,5 +111,10 @@ body {
 }
 
 .carousel-item img{
-  height: 500px;
+  height: 550px;
+}
+
+.carousel-item a {
+  color: #b71c1c;
+  font-weight: bold;
 }
