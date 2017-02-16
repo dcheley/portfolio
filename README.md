@@ -1,3 +1,3 @@
-# IN PROGRESS
+# Personal Web-Development Portfolio
 
-* Personal portfolio.
+* Showcasing my Skills, Projects, Personal & Contact info.
