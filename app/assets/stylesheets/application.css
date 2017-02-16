@@ -109,3 +109,7 @@ body {
 	line-height:35px;
   color: #616161;
 }
+
+.carousel-item img{
+  height: 500px;
+}
