@@ -118,3 +118,7 @@ body {
   color: #b71c1c;
   font-weight: bold;
 }
+
+.card-content img {
+  height: 175px;
+}
