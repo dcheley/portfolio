@@ -97,6 +97,7 @@ body {
 	height:35px;
 	width:0px;
 	border-radius:10px;
+  padding-top: 7px;
 }
 
 .skill-bar-percent {
