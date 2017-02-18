@@ -122,3 +122,9 @@ body {
 .card-content img {
   height: 175px;
 }
+
+@media (max-width: 768px) {
+  .about-logo {
+    width: 350px;
+  }
+}
