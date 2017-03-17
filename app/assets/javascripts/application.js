@@ -1,6 +1,6 @@
 //= require jquery
 //= require materialize.min
-$(document).ready( function() {
+$(document).ready(function() {
   $('body').hide();
   $('body').fadeIn(5000);
   $(".play").hide();
