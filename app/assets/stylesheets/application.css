@@ -109,6 +109,11 @@ body {
   color: #616161;
 }
 
+/*To ensure cards load on refresh*/
+.carousel-slider {
+  height: 634px !important;
+}
+
 .carousel-item img{
   height: 550px;
 }
