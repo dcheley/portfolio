@@ -112,13 +112,17 @@ body {
   height: 550px;
 }
 
-.carousel-item a {
+.code-link {
   color: #b71c1c;
   font-weight: bold;
 }
 
 .card-content img {
   height: 175px;
+}
+
+.code-link:hover {
+  color: #d50000;
 }
 
 @media (max-width: 768px) {
