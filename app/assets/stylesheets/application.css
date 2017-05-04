@@ -31,18 +31,12 @@ body {
   height: 32px;
 }
 
-.collapsible-header {
-  font-weight: bold !important;
-}
-
-.collapsible-body {
-  padding-top: 0 !important;
-}
-
 .nav-links a.waves-effect {
-  width: 140px;
-  padding-right: 15px !important;
-  padding-left: 25px !important;
+  width: 100%;
+}
+
+.nav-links a.waves-effect:hover {
+  background-color: #bdbdbd;
 }
 
 .page {
