@@ -72,12 +72,12 @@ body {
 }
 
 .skillbar-title span {
-	display:block;
-	background:rgba(0, 0, 0, 0.1);
-	height:35px;
-	line-height:35px;
-	border-top-left-radius:10px;
-	border-bottom-left-radius:10px;
+	display: block;
+	background: rgba(0, 0, 0, 0.1);
+	height: 35px;
+	line-height: 35px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
 .skillbar-title img {
@@ -88,19 +88,19 @@ body {
 }
 
 .skillbar-bar {
-	height:35px;
-	width:0px;
-	border-radius:10px;
+	height: 35px;
+	width: 0px;
+	border-radius: 10px;
   padding-top: 7px;
 }
 
 .skill-bar-percent {
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	font-size: 11px;
+	height: 35px;
+	line-height: 35px;
   color: #616161;
 }
 
