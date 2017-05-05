@@ -43,7 +43,8 @@ body {
   height: 550px;
 }
 
-.welcome, .play {
+.welcome,
+.play {
   color: #bdbdbd;
 }
 
@@ -52,22 +53,22 @@ body {
 }
 
 .skillbar {
-	position:relative;
-	display:block;
-	margin-bottom:15px;
-	width:100%;
-	background:#eee;
-	height:35px;
-	border-radius:10px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+	background: #eee;
+	height: 35px;
+	border-radius: 10px;
 }
 
 .skillbar-title {
-	position:absolute;
-  width:150px;
-	font-weight:bold;
-	font-size:13px;
-	border-top-left-radius:6px;
-	border-bottom-left-radius:6px;
+	position: absolute;
+  width: 150px;
+	font-weight: bold;
+	font-size: 13px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 }
 
 .skillbar-title span {
