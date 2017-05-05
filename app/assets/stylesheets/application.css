@@ -125,7 +125,13 @@ body {
   color: #d50000;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 480px) {
+  .brand-logo {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .brand-logo {
     width: 350px;
   }
