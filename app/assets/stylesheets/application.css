@@ -113,6 +113,12 @@ body {
   height: 550px;
 }
 
+#carousel-top-title {
+  margin-top: 140px;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
 .code-link {
   color: #b71c1c;
   font-weight: bold;
@@ -134,6 +140,10 @@ body {
   .carousel-slider {
     height: 534px !important;
   }
+
+   #carousel-top-title {
+     margin-top: 65px;
+   }
 }
 
 @media only screen and (max-width: 768px) {
