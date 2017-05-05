@@ -23,11 +23,11 @@ body {
   width: 195px;
 }
 
-.brand-logo {
+.brand-nav-logo {
   padding-top: 7px !important;
 }
 
-.brand-logo img {
+.brand-nav-logo img {
   height: 32px;
 }
 
@@ -108,7 +108,7 @@ body {
   height: 634px !important;
 }
 
-.carousel-item img{
+.carousel-item img {
   height: 550px;
 }
 
@@ -132,5 +132,15 @@ body {
 
   .skillbar-title {
     width: 65px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .side-nav a {
+    padding: 0 32px !important;
+  }
+
+  .brand-nav-logo img {
+    padding-top: 7px !important;
   }
 }
