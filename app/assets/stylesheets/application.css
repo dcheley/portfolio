@@ -129,6 +129,10 @@ body {
   .brand-logo {
     max-width: 300px;
   }
+
+  .carousel-slider {
+    height: 534px !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
