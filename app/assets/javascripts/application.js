@@ -1,6 +1,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require_tree .
 //= require materialize.min
 $(document).ready(function() {
   //Add turbolinks event listener for jQuery
