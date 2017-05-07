@@ -23,9 +23,7 @@
     <% end %>
   </head>
   <body>
-    <%= yield %>
-
-    <ul id="nav-mobile" class="side-nav fixed hide-on-small-and-down" style="transform: translateX(0%);">
+    <ul id="nav-mobile" class="side-nav fixed hide-on-small-and-down">
       <a href="/" class="brand-nav-logo" style="background-color: black;"><%= image_tag('icon-logo.png') %></a>
       <ul class="nav-links">
         <a href="/" class="waves-effect waves-black">INTRO</a>
@@ -35,6 +33,8 @@
         <a href="/pages/contact" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">email</i>CONTACT</a>
       </ul>
     </ul>
+
+    <%= yield %>
 
     <!--Import jQuery before materialize.min.js-->
     <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
