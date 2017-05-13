@@ -58,6 +58,7 @@ nav {
 
 .parallax-container {
   height: 460px !important;
+  width: 100%;
 }
 
 .parallax-one {
@@ -75,7 +76,11 @@ nav {
 }
 
 .headers {
-  color: #b71c1c;
+  /*color: #c62828;*/
+}
+
+.material-icons {
+  /*color: #c62828;*/
 }
 
 .skillbar {
