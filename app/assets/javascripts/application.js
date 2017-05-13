@@ -10,6 +10,7 @@ $(document).ready(function() {
     $('body').fadeIn(5000);
     $(".play").hide();
     $(".background").hide();
+    $('.parallax').parallax();
     $(window).scroll(function() {
       var y_scroll_pos = window.pageYOffset;
       var scroll_pos_test = 100;

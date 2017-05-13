@@ -43,6 +43,19 @@ body {
   height: 550px;
 }
 
+.parallax-container {
+  height: 460px !important;
+}
+
+.parallax-one {
+  height: 800px;
+  opacity: 0.6;
+}
+
+#middle {
+  margin-top: 10px;
+}
+
 .welcome,
 .play {
   color: #bdbdbd;
