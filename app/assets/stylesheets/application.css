@@ -19,6 +19,10 @@ body {
   color: #fff;
 }
 
+nav {
+  background-color: black !important;
+}
+
 .side-nav.fixed {
   width: 195px;
 }
@@ -31,12 +35,21 @@ body {
   height: 32px;
 }
 
-.nav-links a.waves-effect {
+.brand-logo img {
+  height: 32px;
+}
+
+.nav-mobile a.waves-effect {
   width: 100%;
 }
 
-.nav-links a.waves-effect:hover {
-  background-color: #bdbdbd;
+#nav-mobile a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#nav-mobile a.waves-effect:hover {
+  background-color: #212121;
 }
 
 .page {

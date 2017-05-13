@@ -23,17 +23,20 @@
     <% end %>
   </head>
   <body>
-    <ul id="nav-mobile" class="side-nav fixed hide-on-small-and-down">
-      <a href="/" class="brand-nav-logo" style="background-color: black;"><%= image_tag('icon-logo.png') %></a>
-      <ul class="nav-links">
-        <a href="/" class="waves-effect waves-black">INTRO</a>
-        <a href="/pages/skills" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">code</i>SKILLS</a>
-        <a href="/pages/projects" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">view_carousel</i>PROJECTS</a>
-        <a href="/pages/about" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">perm_identity</i>ABOUT</a>
-        <a href="/pages/contact" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">email</i>CONTACT</a>
-      </ul>
-    </ul>
-
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo center" style="background-color: black;"><%= image_tag('icon-logo.png') %></a>
+        <ul id="nav-mobile" class="left hide-on-small-and-down" style="margin-left: 12%;">
+          <a href="/" class="waves-effect waves-black">INTRO</a>
+          <a href="/pages/skills" class="waves-effect waves-black">SKILLS</a>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-small-and-down" style="margin-right: 12%;">
+          <a href="/pages/projects" class="waves-effect waves-black">PROJECTS</a>
+          <a href="/pages/about" class="waves-effect waves-black">ABOUT</a>
+          <!-- <a href="/pages/contact" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">email</i>CONTACT</a> -->
+        </ul>
+      </div>
+    </nav>
     <!-- <ul id="nav-mobile" class="side-nav fixed hide-on-small-and-down">
       <a href="/" class="brand-nav-logo" style="background-color: black;"><%= image_tag('icon-logo.png') %></a>
       <ul class="nav-links">
