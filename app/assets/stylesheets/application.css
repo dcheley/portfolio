@@ -107,6 +107,8 @@ nav {
 .welcome,
 .play {
   color: #bdbdbd;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .waves-effect.waves-light:hover {
@@ -203,6 +205,11 @@ nav {
 @media only screen and (max-width: 480px) {
   .brand-logo {
     max-width: 300px;
+  }
+
+  .welcome,
+  .play {
+    font-size: 16px;
   }
 
   .carousel-slider {
