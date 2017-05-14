@@ -188,17 +188,26 @@ nav {
   margin-left: 7%;
 }
 
+.card-content img {
+  height: 175px;
+}
+
 .code-link {
   color: #b71c1c;
   font-weight: bold;
 }
 
-.card-content img {
-  height: 175px;
-}
-
 .code-link:hover {
   color: #d50000;
+}
+
+#about-icon {
+  color: #b71c1c
+}
+
+.about-info {
+  color: black !important;
+  margin-bottom: 10px;
 }
 
 #bio-text {
