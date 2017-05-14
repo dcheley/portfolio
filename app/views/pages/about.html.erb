@@ -11,12 +11,22 @@
 
             <p><%= image_tag("profile.jpg", style:"margin-bottom: 15px;") %></p>
 
+            <div class="line">
+              <i class="material-icons" id="about-icon" style="margin-right: 5px;">phonelink_ring</i>
+              <p class="about-info">(416) 910-4130</p>
+            </div>
 
-            <i class="material-icons" id="about-icon">phonelink_ring</i>
-            <p class="about-info">(416) 910-4130</p>
-            <i class="material-icons" id="about-icon" style="margin-top: 10px;">email</i>
-            <p class="about-info">danielcheley@hotmail.com</p>
-            <p><%= link_to "Resume", "https://bitmakerhq.s3.amazonaws.com/alexa/production/student/resume/1263/Daniel_Cheley_CV_012017.pdf", target:"_blank", class:"code-link" %></p>
+            <div class="line" style="margin-top: 10px;">
+              <i class="material-icons" id="about-icon" style="margin-right: 5px;">email</i>
+              <p class="about-info">danielcheley@hotmail.com</p>
+            </div>
+
+            <div class="line" style="margin-top: 10px; margin-bottom: 20px;">
+              <%= link_to image_tag('pdf.svg', class:"pdf-icon", id:"about-icon"),
+             "https://bitmakerhq.s3.amazonaws.com/alexa/production/student/resume/1263/Daniel_Cheley_CV_012017.pdf",
+              target:"_blank" %>
+              <p class="about-info">Resume</p>
+            </div>
 
             <p class="black-text" id="bio-text">My passion for problem solving
               drives me as a Software Developer to look for creative solutions
