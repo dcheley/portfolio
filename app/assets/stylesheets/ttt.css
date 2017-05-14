@@ -1,3 +1,22 @@
+.ttt-left {
+  width: 25%;
+  margin-left: 5%;
+  float: left;
+}
+
+.ttt-middle {
+  width: 35%;
+  margin-left: 2.5%;
+  float: left;
+}
+
+.ttt-right {
+  width: 25%;
+  margin-right: 5%;
+  float: right;
+}
+
+
 #board {
   width: 300px;
   height: 300px;
@@ -5,6 +24,7 @@
   margin: 0 auto;
   padding: 0;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 #board > li {
@@ -67,6 +87,18 @@
 #alerts.po-win > span.po-win,
 #alerts.draw > span.draw {
   display: block;
+  font-size: 18px;
+}
+
+#alerts.px-win > span.px-win,
+#alerts.po-win > span.po-win,
+#alerts.draw > span.draw {
+  margin-top: 0;
+
+}
+
+#player-turn.x span.x,
+#player-turn.o span.o {
   margin-top: 20px;
 }
 
@@ -109,5 +141,6 @@
 }
 
 .sub-header {
-  font-size: 16px;
+  font-size: 18px;
+  margin-top: 0;
 }
