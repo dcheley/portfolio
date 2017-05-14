@@ -78,7 +78,9 @@
 }
 
 #score > span {
-  color: #b71c1c
+  color: #b71c1c;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #player-turn.x span.x,
