@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
   <body>
-  </br><a href="/"><%= image_tag('main-logo.png', class:"brand-logo", style:"margin-top: 30px;") %></a>
+  <div class="parallax-container">
+    <div class="parallax"><%= image_tag('laptop-chill.jpg', class:"parallax-one") %></div>
+    </br><a href="/"><%= image_tag('main-logo.png', class:"brand-logo", style:"margin-top: 30px;") %></a>
+  </div>
+    <div class="page">
+      <h4 class="welcome" style="margin-top: 210px;">Welcome, scroll down to view more...</h4>
 
-  <div class="page">
-    <h4 class="welcome" style="margin-top: 210px;">Welcome, scroll down to view more...</h4>
 
     <div class="neon-glow">
       <p><%= link_to image_tag('arrow.svg', class:"intro-arrow") %></p>
