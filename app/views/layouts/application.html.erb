@@ -36,7 +36,8 @@
         </ul>
       </div>
     </nav>
-    <!-- <ul id="nav-mobile" class="side-nav fixed hide-on-small-and-down">
+
+    <ul id="slide-out" class="side-nav">
       <a href="/" class="brand-nav-logo" style="background-color: black;"><%= image_tag('icon-logo.png') %></a>
       <ul class="nav-links">
         <a href="/" class="waves-effect waves-black">INTRO</a>
@@ -45,7 +46,9 @@
         <a href="/pages/about" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">perm_identity</i>ABOUT</a>
         <a href="/pages/contact" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">email</i>CONTACT</a>
       </ul>
-    </ul> -->
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons" id="side-nav-button">menu</i></a>
+
 
     <%= yield %>
 

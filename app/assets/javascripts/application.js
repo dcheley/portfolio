@@ -11,6 +11,7 @@ $(document).ready(function() {
     $(".play").hide();
     $(".background").hide();
     $('.parallax').parallax();
+    $(".button-collapse").sideNav();
     $(window).scroll(function() {
       var y_scroll_pos = window.pageYOffset;
       var scroll_pos_test = 100;
