@@ -107,3 +107,7 @@
 #restart:hover {
   color: #b71c1c;
 }
+
+.sub-header {
+  font-size: 16px;
+}
