@@ -2,20 +2,36 @@
 <html>
   <body>
     <div class="row">
-      <div class="col s12 m9 offset-m3 l10 offset-l2">
+      <div class="col s12 m10 offset-m1 l10 offset-l1">
         <h4 class="headers">About Me</h4>
 
         <div class="card grey lighten-2">
           <div class="card-content white-text">
-            <span class="card-title"><%= image_tag("main-logo.png", class:'brand-logo', style:"height: 40px;") %></span>
-            <p><%= image_tag("profile.jpg") %></p>
-            <p class="black-text", style="margin-top: 10px; text-align: justify;">My passion for problem solving drives me as a Software Developer to look for creative solutions and suggest alternative methods to help clients solve business issues, pushing me to continuously develop my technical skills each day as I build applications. Currently looking to work for a digital agency delivering innovative applications design and software solutions to clients where I can gain exposure to various projects and developer tools. This would be the ideal environment to leverage my past experience working with a diverse network of talented professionals to deliver on agreed upon specifications within required time frame and budgets.</p>
-          </br><h5><%= link_to "Resume", "https://bitmakerhq.s3.amazonaws.com/alexa/production/student/resume/1263/Daniel_Cheley_CV_012017.pdf", target:"_blank", class:"code-link" %></h5>
+            <span class="card-title"><%= image_tag("main-logo.png", class:'brand-logo', style:"height: 40px; margin-bottom: 15px;") %></span>
+
+            <p><%= image_tag("profile.jpg", style:"margin-bottom: 15px;") %></p>
+
+            <p class="black-text" id="bio-text">My passion for problem solving
+              drives me as a Software Developer to look for creative solutions
+              and suggest alternative methods to help clients solve business issues,
+              pushing me to continuously develop my technical skills each day as
+              I build applications. Currently looking to work for a digital agency
+              delivering innovative applications design and software solutions to
+              clients where I can gain exposure to various projects and developer
+              tools. This would be the ideal environment to leverage my past experience
+              working with a diverse network of talented professionals to deliver on agreed
+              upon specifications within required time frame and budgets.</p>
+
+            <p style="color: #b71c1c;"><b>Phone:</b> (416) 910-4130</p>
+            <p style="margin-top: 10px; color: #b71c1c;"><b>Email:</b> danielcheley@hotmail.com</p>
+            <p style="margin-top: 15px;"><%= link_to image_tag('linkedin-icon.png', style:"height: 32px;"), "https://www.linkedin.com/in/daniel-cheley", target:"_blank" %></p>
+            <p><%= link_to image_tag('github-icon.png', style:"height: 32px; margin-top: 8px;"), "https://github.com/dcheley", target:"_blank" %></p>
+            </br><h5><%= link_to "Resume", "https://bitmakerhq.s3.amazonaws.com/alexa/production/student/resume/1263/Daniel_Cheley_CV_012017.pdf", target:"_blank", class:"code-link" %></h5>
           </div>
         </div>
 
-        <p class="welcome", style="margin-top: 10px;">Next: Contact Info</p>
-        <a href="/pages/contact" class="waves-effect waves-light btn red darken-4", style="margin-bottom: 50px; color: #bdbdbd;"><i class="material-icons">email</i></a>
+        <p class="welcome", style="margin-top: 10px;">Back to Home</p>
+        <a href="/" class="waves-effect waves-light btn red darken-4", style="margin-bottom: 50px; color: #bdbdbd;"><i class="material-icons">fast_rewind</i></a>
       </div>
     </div>
   </body>

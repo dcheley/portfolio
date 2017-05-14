@@ -92,6 +92,10 @@ nav {
   color: #bdbdbd;
 }
 
+.waves-effect.waves-light:hover {
+  background-color: #d50000 !important;
+}
+
 .skillbar {
 	position: relative;
 	display: block;
@@ -172,6 +176,13 @@ nav {
   color: #d50000;
 }
 
+#bio-text {
+  color: black;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  text-align: justify;
+}
 @media only screen and (max-width: 480px) {
   .brand-logo {
     max-width: 300px;
