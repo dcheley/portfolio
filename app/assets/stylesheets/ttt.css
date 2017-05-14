@@ -16,6 +16,10 @@
   float: right;
 }
 
+.ttt-header {
+  color: #b71c1c;
+  margin-bottom: 30px;
+}
 
 #board {
   width: 300px;
@@ -145,4 +149,37 @@
 .sub-header {
   font-size: 18px;
   margin-top: 0;
+}
+
+@media only screen and (max-width: 875px) {
+  .ttt-header {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  #reset-1,
+  #reset-2,
+  #restart,
+  #player-turn.x span.x,
+  #player-turn.o span.o,
+  #alerts.px-win > span.px-win,
+  #alerts.po-win > span.po-win,
+  #alerts.draw > span.draw,
+  #score > span,
+  .sub-header {
+    font-size: 12px;
+  }
+
+  .ttt-middle {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .ttt-right,
+  .ttt-left {
+    float: right;
+    width: 100%;
+    margin: 0;
+  }
 }
