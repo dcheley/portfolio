@@ -84,9 +84,14 @@ nav {
 }
 
 .headers {
+  color: #b71c1c;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+#skills-header {
+  color: white;
 }
 
 #middle {
