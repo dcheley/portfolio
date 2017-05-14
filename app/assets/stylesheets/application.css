@@ -37,6 +37,7 @@ nav {
 
 .brand-logo img {
   height: 32px;
+  margin-top: 15px;
 }
 
 .nav-mobile a.waves-effect {
@@ -260,6 +261,12 @@ nav {
 
   .carousel-slider {
     height: 534px !important;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .brand-logo img {
+    margin-top: 12px;
   }
 }
 
