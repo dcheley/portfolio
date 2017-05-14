@@ -3,35 +3,35 @@
   <body>
     <div class="row">
       <div class="col s12 m10 offset-m1 l10 offset-l1">
-        <h4 class="headers">Projects</h4>
+        <h4 class="headers" style="color: #b71c1c;">Projects</h4>
 
         <!-- Carousel -->
         <div class="carousel carousel-slider center" data-indicators="true">
           <div class="carousel-item grey darken-4 white-text" href="#one!">
             <h4 class="white-text" id="carousel-top-title">Welcome! I'm currently working on an "Employee Engagement App" for the OPS...</h4>
-            </br><h5 class="white-text" style="margin-top: 30px;">Check out the code here: <%= link_to "Code & Description", "http://github.com/dcheley/frank-OH-", target: "_blank", class:"code-link" %></h5>
-            </br><h5 class="white-text" style="margin-top: 30px;">Swipe right to view my projects...</h5>
+            </br><h5 class="white-text" id="carousel-info" style="margin-top: 30px;">Check out the code here: <%= link_to "Code & Description", "http://github.com/dcheley/frank-OH-", target: "_blank", class:"code-link" %></h5>
+            </br><h5 class="white-text" id="carousel-info" style="margin-top: 30px;">Swipe right to view my projects...</h5>
           </div>
           <div class="carousel-item grey darken-2 white-text" href="#three!">
-            <h2 style="margin-top: 10px;">FrankOH!</h2>
-            <p class="white-text" style= "margin-right: 7%; margin-left: 7%;"><b>IN PROGRESS:</b> FrankOH!'s website showcasing the musical artist's work, tour/contact info and social media.</p>
-            <p class="white-text" style= "margin-right: 7%; margin-left: 7%;"><%= link_to "Code & Description", "http://github.com/dcheley/frank-OH-", target: "_blank", class:"code-link" %> | <%= link_to "Deployed Version", "http://frankoh.herokuapp.com", target: "_blank", class:"code-link" %></p>
+            <h2 id="carousel-title" style="margin-top: 10px;">FrankOH!</h2>
+            <p class="white-text" style="margin-right: 7%; margin-left: 7%;"><b>IN PROGRESS:</b> FrankOH!'s website showcasing the musical artist's work, tour/contact info and social media.</p>
+            <p class="white-text" style="margin-right: 7%; margin-left: 7%;"><%= link_to "Code & Description", "http://github.com/dcheley/frank-OH-", target: "_blank", class:"code-link" %> | <%= link_to "Deployed Version", "http://frankoh.herokuapp.com", target: "_blank", class:"code-link" %></p>
             <%= image_tag('frankoh.jpg')%>
           </div>
           <div class="carousel-item grey white-text" href="#three!">
-            <h2 style="margin-top: 10px;">QSDL Website</h2>
-            <p class="white-text" style= "margin-right: 7%; margin-left: 7%;">A website built to display information for Toronto's Queen Street Dart League</p>
-            <p class="white-text" style= "margin-right: 7%; margin-left: 7%;"><%= link_to "Code & Description", "http://github.com/dcheley/QSDL-Website", target: "_blank", class:"code-link" %> | <%= link_to "Deployed Version", "http://qsdleague.herokuapp.com", target: "_blank", class:"code-link" %></p>
+            <h2 id="carousel-title" style="margin-top: 10px;">QSDL Website</h2>
+            <p class="white-text" style="margin-right: 7%; margin-left: 7%;">A website built to display information for Toronto's Queen Street Dart League</p>
+            <p class="white-text" style="margin-right: 7%; margin-left: 7%;"><%= link_to "Code & Description", "http://github.com/dcheley/QSDL-Website", target: "_blank", class:"code-link" %> | <%= link_to "Deployed Version", "http://qsdleague.herokuapp.com", target: "_blank", class:"code-link" %></p>
             <%= image_tag('bg.png')%>
           </div>
           <div class="carousel-item grey lighten-1 black-text" href="#four!">
-            <h2 style="margin-top: 10px;">Phyziq</h2>
-            <p class="black-text" style= "margin-right: 7%; margin-left: 7%;"><b>Final Bitmaker project:</b> A rails app which connects users to personal trainers, using Google Calendar API to manage training sessions.</p>
-            <p class="black-text" style= "margin-right: 7%; margin-left: 7%;"><%= link_to "Code & Description", "http://github.com/dcheley/Phyziq", target: "_blank", class:"code-link" %> | <%= link_to "Deployed Version", "http://phyziq.herokuapp.com", target: "_blank", class:"code-link" %></p>
+            <h2 id="carousel-title" style="margin-top: 10px;">Phyziq</h2>
+            <p class="black-text" style="margin-right: 7%; margin-left: 7%;"><b>Final Bitmaker project:</b> A rails app which connects users to personal trainers, using Google Calendar API to manage training sessions.</p>
+            <p class="black-text" style="margin-right: 7%; margin-left: 7%;"><%= link_to "Code & Description", "http://github.com/dcheley/Phyziq", target: "_blank", class:"code-link" %> | <%= link_to "Deployed Version", "http://phyziq.herokuapp.com", target: "_blank", class:"code-link" %></p>
             <%= image_tag('phyziq-bg.png')%>
           </div>
           <div class="carousel-item grey lighten-2 black-text" href="#five!">
-            <h2 style="margin-top: 10px;">Tic Tac Toe</h2>
+            <h2 id="carousel-title" style="margin-top: 10px;">Tic Tac Toe</h2>
             <p class="black-text" style= "margin-right: 7%; margin-left: 7%;">The same game you played earlier! This is an early Bitmaker assignment which I've polished.</p>
             <p class="black-text" style="margin-bottom: 0px; margin-right: 7%; margin-left: 7%;"><%= link_to "Code & Description", "http://github.com/dcheley/Tic-Tac-Toe", target: "_blank", class:"code-link" %> | <%= link_to "Play", "http://htmlpreview.github.io/?https://github.com/dcheley/Tic-Tac-Toe/blob/master/tic-tac-toe/index.html", target: "_blank", class:"code-link" %></p>
             <%= image_tag('tic-tac-toe.png')%>
