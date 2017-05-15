@@ -145,6 +145,11 @@ nav {
   margin-bottom: 30px;
 }
 
+#title {
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
 #skills-header {
   color: white;
 }
@@ -226,17 +231,16 @@ nav {
 
 /*To ensure cards load on refresh*/
 .carousel-slider {
-  height: 634px !important;
+  height: 562px !important;
 }
 
 .carousel-item img {
-  height: 550px;
+  height: 600px;
 }
 
-#carousel-top-title {
-  margin-top: 140px;
-  margin-right: 7%;
-  margin-left: 7%;
+#carousel-title {
+  font-weight: 300;
+  margin-top: 0;
 }
 
 .card-content img {
@@ -293,19 +297,13 @@ nav {
     max-width: 300px;
   }
 
-  #carousel-top-title {
-    font-size: 24px;
-    margin-top: 110px;
-  }
-
   #carousel-title {
     font-size: 20px;
   }
 
   .welcome,
   .play,
-  #skills-header,
-  #carousel-info {
+  #skills-header {
     font-size: 16px;
   }
 
