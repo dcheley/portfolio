@@ -263,6 +263,10 @@ nav {
 
 .indicators .indicator-item {
   background-color: #b71c1c !important;
+  height: 10px !important;
+  width: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
 }
 
 .indicators .indicator-item.active {
@@ -343,6 +347,15 @@ nav {
 
   .skillbar-title {
     width: 65px;
+  }
+
+  .carousel-item img {
+    height: 500px;
+  }
+
+  .indicators .indicator-item {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
   }
 }
 
