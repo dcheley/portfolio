@@ -256,6 +256,19 @@ nav {
   color: #d50000;
 }
 
+.indicators {
+  margin-bottom: 20px !important;
+
+}
+
+.indicators .indicator-item {
+  background-color: #b71c1c !important;
+}
+
+.indicators .indicator-item.active {
+  background-color: white !important;
+}
+
 .about-info,
 #about-icon {
   display: inline-block;
