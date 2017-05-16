@@ -35,7 +35,7 @@ nav {
   height: 32px;
 }
 
-.brand-logo img {
+.icon-logo {
   height: 32px;
   margin-top: 15px;
 }
@@ -243,8 +243,9 @@ nav {
   margin-top: 0;
 }
 
-.card-content img {
+.profile-pic {
   height: 175px;
+  margin-bottom: 15px;
 }
 
 .code-link {
@@ -311,7 +312,7 @@ nav {
 
 @media only screen and (max-width: 480px) {
   .brand-logo {
-    max-width: 300px;
+    max-width: 270px;
   }
 
   #carousel-title {
@@ -327,10 +328,19 @@ nav {
   .carousel-slider {
     height: 534px !important;
   }
+
+  .profile-pic {
+    height: 150px;
+  }
+
+  #bio-text {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
 }
 
 @media only screen and (max-width: 601px) {
-  .brand-logo img {
+  .icon-logo {
     margin-top: 12px;
   }
 }
@@ -356,6 +366,11 @@ nav {
   .indicators .indicator-item {
     margin-left: 5px !important;
     margin-right: 5px !important;
+  }
+
+  #bio-text {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 
