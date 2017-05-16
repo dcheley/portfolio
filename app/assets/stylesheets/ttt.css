@@ -1,18 +1,18 @@
 .ttt-left {
   width: 25%;
-  margin-left: 5%;
+  margin: auto;
   float: left;
 }
 
 .ttt-middle {
-  width: 35%;
-  margin-left: 2.5%;
+  width: 50%;
+  margin: auto;
   float: left;
 }
 
 .ttt-right {
   width: 25%;
-  margin-right: 5%;
+  margin: auto;
   float: right;
 }
 
