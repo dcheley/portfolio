@@ -7,7 +7,7 @@ class ContactsController < ApplicationController
     if @contact.save
       redirect_to root_url, notice: "Message sent. Thanks #{@contact.name}!"
     else
-      render :new
+      render "pages/about"
     end
   end
 
