@@ -151,6 +151,44 @@
   margin-top: 0;
 }
 
+@media only screen and (max-width: 480px) {
+  #board {
+    margin-bottom: 0;
+    height: 280px;
+    width: 255px;
+  }
+
+  #board > li.x {
+    font-size: 30px;
+    color: #b71c1c;
+  }
+
+  #board > li.o {
+    font-size: 30px;
+    color: #37474f;
+  }
+
+  #board > li {
+    width: 85px;
+    height: 85px;
+  }
+
+  #board > li:active,
+  {
+    width: 85px;
+    height: 85px;
+    border: 0;
+  }
+
+  #info {
+    margin-top: 0;
+  }
+
+  #restart {
+    margin-bottom: 15px;
+  }
+}
+
 @media only screen and (max-width: 875px) {
   .ttt-header {
     font-size: 14px;
@@ -180,6 +218,6 @@
   .ttt-left {
     float: right;
     width: 100%;
-    margin: 0;
+    margin: auto;
   }
 }
