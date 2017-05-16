@@ -7,7 +7,6 @@ $(document).ready(function() {
   //Add turbolinks event listener for jQuery
   $(document).on('turbolinks:load', function() {
     $('body').hide();
-    $('div').removeClass('neon-glow');
     $('body').fadeIn(5000);
     $(".play").hide();
     $(".background").hide();
@@ -20,7 +19,7 @@ $(document).ready(function() {
       if (y_scroll_pos > scroll_pos_test) {
         $(".play").fadeIn(5000);
         $(".background").fadeIn(5000);
-        $('div').addClass('neon-glow');
+        $('#neon-glow').addClass('neon-glow');
       }
     });
     $('.skillbar').each(function(){
