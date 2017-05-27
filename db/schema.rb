@@ -15,24 +15,6 @@ ActiveRecord::Schema.define(version: 20170516213929) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "badges", force: :cascade do |t|
-    t.string   "name"
-    t.boolean  "red"
-    t.boolean  "blue"
-    t.boolean  "yellow"
-    t.boolean  "green"
-    t.boolean  "purple"
-    t.boolean  "pink"
-    t.boolean  "grey"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
-    t.integer  "user_id"
-    t.string   "description"
-    t.integer  "opportunity_id"
-    t.boolean  "education"
-    t.boolean  "exp"
-  end
-
   create_table "contacts", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
@@ -41,67 +23,6 @@ ActiveRecord::Schema.define(version: 20170516213929) do
     t.string   "message"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
-  end
-
-  create_table "opportunities", force: :cascade do |t|
-    t.string   "name"
-    t.string   "description"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
-    t.string   "avatar_file_name"
-    t.string   "avatar_content_type"
-    t.integer  "avatar_file_size"
-    t.datetime "avatar_updated_at"
-  end
-
-  create_table "recognitions", force: :cascade do |t|
-    t.string   "name"
-    t.string   "description"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
-    t.integer  "receiver_id"
-    t.integer  "recognizer_id"
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string   "email"
-    t.datetime "created_at",                        null: false
-    t.datetime "updated_at",                        null: false
-    t.string   "job_description"
-    t.string   "name"
-    t.string   "title"
-    t.string   "phone"
-    t.boolean  "adm"
-    t.boolean  "director"
-    t.boolean  "manager"
-    t.boolean  "adm_office"
-    t.boolean  "strategic_human_resources"
-    t.boolean  "service_management_and_facilities"
-    t.boolean  "business_planning_and_finance"
-    t.string   "password_digest"
-    t.boolean  "staff"
-    t.string   "avatar_file_name"
-    t.string   "avatar_content_type"
-    t.integer  "avatar_file_size"
-    t.datetime "avatar_updated_at"
-    t.boolean  "co_op"
-    t.string   "direct_report"
-    t.string   "career_aspirations"
-    t.boolean  "agreement"
-  end
-
-  create_table "votes", force: :cascade do |t|
-    t.string   "votable_type"
-    t.integer  "votable_id"
-    t.string   "voter_type"
-    t.integer  "voter_id"
-    t.boolean  "vote_flag"
-    t.string   "vote_scope"
-    t.integer  "vote_weight"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.index ["votable_id", "votable_type", "vote_scope"], name: "index_votes_on_votable_id_and_votable_type_and_vote_scope", using: :btree
-    t.index ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope", using: :btree
   end
 
 end
