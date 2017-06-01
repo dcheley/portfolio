@@ -1,5 +1,6 @@
 class ContactsController < ApplicationController
   def new
+    @contact = Contact.new
   end
 
   def create
@@ -7,7 +8,7 @@ class ContactsController < ApplicationController
     if @contact.save
       redirect_to root_url, notice: "Message sent. Thanks #{@contact.name}!"
     else
-      render "pages/about"
+      render "contacts/new"
     end
   end
 
