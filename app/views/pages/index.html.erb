@@ -6,16 +6,23 @@
 
     <a href="/"><%= image_tag('main-logo.png', class:"brand-logo", style:"margin-top: 40px;") %></a>
 
-    <h4 class="welcome" style="margin-top: 160px;">Welcome, scroll down to view more...</h4>
+    <div id="neon-glow">
+      <p><a href=""><i class="material-icons large" id="intro-arrow">keyboard_arrow_down</i></p></a>
+    </div>
+
+    <div id="neon-glow-2">
+      <p><a href=""><i class="material-icons large" id="intro-arrow">keyboard_arrow_down</i></p></a>
+    </div>
   </div>
 
   <div class="page">
-    <div id="neon-glow">
-      <p><%= link_to image_tag('arrow.svg', class:"intro-arrow") %></p>
+    <div id="neon-glow-3">
+      <p><a href=""><i class="material-icons large" id="intro-arrow">keyboard_arrow_down</i></p></a>
     </div>
 
-    <h4 class="play", style="margin-top: 150px;">Take a second.</h4>
-    <h4 class="play">Play some tic-tac-toe before viewing my portfolio.</h4>
+    <div id="neon-glow-4">
+      <p><a href=""><i class="material-icons large" id="intro-arrow">keyboard_arrow_down</i></p></a>
+    </div>
   </div>
 
   <%= render 'ttt' %>

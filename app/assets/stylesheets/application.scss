@@ -70,12 +70,9 @@ nav {
   color: #bdbdbd;
 }
 
-.intro-arrow {
-  width: 64px;
-  margin-top: 55px;
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(00deg); /* Chrome, Safari, Opera */
-  transform: rotate(90deg);
+#intro-arrow {
+  margin-top: 75px;
+  color: #d50000;
 }
 
 .neon-glow a {
@@ -86,12 +83,10 @@ nav {
 }
 
 .neon-glow p:nth-child(1) a {
-  padding-top: 58px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-top: 78px;
   border-radius: 64px;
-  color: #d50000;
+  padding-left: 2px;
+  padding-right: 2px;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
@@ -125,11 +120,12 @@ nav {
 }
 
 .page {
-  height: 515px;
+  height: 300px;
+  margin-bottom: 100px;
 }
 
 .parallax-container {
-  height: 460px !important;
+  // height: 460px !important;
   width: 100%;
 }
 
