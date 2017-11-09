@@ -14,65 +14,23 @@
  *= require_self
  */
 body {
-  background: black;
+  // background: black;
   text-align: center;
   color: #fff;
 }
 
-nav {
-  background-color: black !important;
-}
-
-.side-nav {
-  width: 200px !important;
-}
-
-.brand-nav-logo {
-  padding-top: 7px !important;
-}
-
-.brand-nav-logo img {
-  height: 32px;
-}
-
-.icon-logo {
-  height: 32px;
-  margin-top: 15px;
-}
-
-.nav-mobile a.waves-effect {
-  width: 100%;
-}
-
-#nav-mobile a {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-#nav-mobile a.waves-effect:hover {
-  background-color: #212121;
-}
-
-#slide-out a.waves-effect:hover {
-  background-color: #bdbdbd;
-}
-
-#side-nav-button {
-  color: white;
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin-top: 5px;
-  margin-right: 15px;
-}
-
-#side-nav-button:hover {
-  color: #bdbdbd;
+.logo {
+  height: 48px;
+  margin-top: 40px;
 }
 
 #intro-arrow {
   margin-top: 75px;
   color: #d50000;
+}
+
+#neon-glow {
+  margin-top: 30px;
 }
 
 .neon-glow a {
@@ -121,7 +79,7 @@ nav {
 
 .page {
   height: 300px;
-  margin-bottom: 75px;
+  margin-bottom: 30px;
 }
 
 .parallax-container {
@@ -131,7 +89,6 @@ nav {
 
 .parallax-one {
   height: 800px;
-  opacity: 0.6;
 }
 
 .headers {
@@ -276,7 +233,6 @@ nav {
   vertical-align: middle;
 }
 
-
 #about-icon {
   color: #b71c1c
 }
@@ -338,12 +294,6 @@ nav {
   #bio-text {
     margin-left: 10px !important;
     margin-right: 10px !important;
-  }
-}
-
-@media only screen and (max-width: 601px) {
-  .icon-logo {
-    margin-top: 12px;
   }
 }
 
