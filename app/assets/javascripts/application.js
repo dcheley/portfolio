@@ -8,6 +8,8 @@ $(document).ready(function() {
   $(document).on('turbolinks:load', function() {
     $('body').hide();
     $('body').fadeIn(5000);
+    $('#neon-glow-2').hide();
+    $('#neon-glow-3').hide();
     $(".play").hide();
     $(".background").hide();
     $('.parallax').parallax();
@@ -22,11 +24,13 @@ $(document).ready(function() {
         $('#neon-glow').addClass('neon-glow');
       }
       if (y_scroll_pos > scroll_pos_test_2) {
+        $('#neon-glow-2').fadeIn(5000);
         $('#neon-glow-2').addClass('neon-glow');
       }
       if (y_scroll_pos > scroll_pos_test_3) {
-        $(".play").fadeIn(6000);
-        $(".background").fadeIn(6000);
+        $(".play").fadeIn(5000);
+        $(".background").fadeIn(5000);
+        $('#neon-glow-3').fadeIn(5000);
         $('#neon-glow-3').addClass('neon-glow');
       }
     });
