@@ -206,7 +206,6 @@ body {
 
 .indicators {
   margin-bottom: 20px !important;
-
 }
 
 .indicators .indicator-item {
@@ -221,13 +220,26 @@ body {
   background-color: white !important;
 }
 
-.about-info,
-#about-icon {
+.lone-icon,
+#about-icon,
+.about-info {
   display: inline-block;
   vertical-align: middle;
 }
 
+.lone-icon:hover,
+.contact-icon:hover,
+.pdf-icon:hover {
+  filter: brightness(60%);
+}
+
+.lone-icon,
+.contact-icon {
+  height: 40px;
+}
+
 #about-icon {
+  height: 28px;
   color: #b71c1c
 }
 
@@ -237,7 +249,7 @@ body {
 }
 
 .pdf-icon {
-  height: 22px !important;
+  // height: 22px !important;
   margin-right: 7px;
 }
 

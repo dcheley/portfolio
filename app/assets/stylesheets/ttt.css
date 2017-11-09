@@ -22,12 +22,12 @@
 .ttt-header {
   color: #b71c1c;
   margin-bottom: 15px;
+  letter-spacing: 5px;
 }
 
 #board {
   width: 300px;
   height: 300px;
-  /*border: 1px solid #dadada;*/
   margin: 0 auto;
   padding: 0;
   margin-bottom: 20px;

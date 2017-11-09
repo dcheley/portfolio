@@ -1,9 +1,9 @@
 <div class="background">
-  <h4 class="ttt-header">TAKE A SEC AND PLAY!</h4>
+  <h4 class="ttt-header">TAKE A SEC TO PLAY!</h4>
 
   <div class="ttt-left">
     <aside id="info">
-      <p class="sub-header">P1 SCORE:</p>
+      <p class="sub-header">P1 SCORE</p>
       <div id="score">
         <span id="p1-score"></span><button id="reset-1">Reset</button>
       </div>
@@ -40,11 +40,15 @@
     </aside>
 
     <button id="restart">Restart Game</button>
+
+    <p style="margin-bottom: 0;"><%= link_to image_tag('github.svg', class:"lone-icon"), "https://github.com/dcheley/Tic-Tac-Toe", target:"_blank" %></p>
+
   </div>
+
 
   <div class="ttt-right">
     <aside id="info">
-      <p class="sub-header">P2 SCORE:</p>
+      <p class="sub-header">P2 SCORE</p>
       <div id="score">
         <span id="p2-score"></span> <button id="reset-2">Reset</button>
       </div>

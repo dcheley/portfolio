@@ -38,14 +38,11 @@
               upon specifications within required time frame and budgets.</p>
 
             <div class="line">
-              <%= link_to image_tag('linkedin.svg', class:"contact-icon", style:"height: 32px; margin-top: 15px;"), "https://www.linkedin.com/in/daniel-cheley", target:"_blank" %>
-              <%= link_to image_tag('github.svg', class:"contact-icon", style:"height: 32px; margin-top: 8px;"), "https://github.com/dcheley", target:"_blank" %>
+              <%= link_to image_tag('linkedin.svg', class:"contact-icon"), "https://www.linkedin.com/in/daniel-cheley", target:"_blank" %>
+              <%= link_to image_tag('github.svg', class:"contact-icon"), "https://github.com/dcheley", target:"_blank" %>
             </div>
           </div>
         </div>
-
-        <p class="welcome", style="margin-top: 10px;">Back to Home</p>
-        <a href="/" class="waves-effect waves-light btn red darken-4", style="margin-bottom: 50px; color: #bdbdbd;"><i class="material-icons">fast_rewind</i></a>
 
         <%= form_for(@contact) do |f| %>
           <% if @contact.errors.any? %>
@@ -87,7 +84,6 @@
           <%= f.submit "SUBMIT", class:"submit-green" %>
 
         <% end %>
-
       </div>
     </div>
   </body>
