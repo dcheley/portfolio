@@ -17,7 +17,6 @@ $(document).ready(function() {
       var scroll_pos_test_1 = 100;
       var scroll_pos_test_2 = 200;
       var scroll_pos_test_3 = 300;
-      var scroll_pos_test_4 = 400;
 
       if (y_scroll_pos > scroll_pos_test_1) {
         $('#neon-glow').addClass('neon-glow');
@@ -29,9 +28,6 @@ $(document).ready(function() {
         $(".play").fadeIn(6000);
         $(".background").fadeIn(6000);
         $('#neon-glow-3').addClass('neon-glow');
-      }
-      if (y_scroll_pos > scroll_pos_test_4) {
-        $('#neon-glow-4').addClass('neon-glow');
       }
     });
     $('.skillbar').each(function(){
