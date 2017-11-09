@@ -2,11 +2,11 @@
 <html>
   <body>
     <div class="parallax-container">
-      <div class="parallax"><%= image_tag('laptop-chill.jpg', class:"parallax-one") %></div>
+      <div class="parallax"><%= image_tag('laptop-chill.jpg', class:"parallax-image") %></div>
 
       <a href="/" class="brand-logo center"><%= image_tag('main-logo.png', class:"logo") %></a>
 
-      <h4 class="headers" id="intro-header">Need an application built? You've come to the right place...</h4>
+      <h4 id="intro-header" style="margin-top: 120px;">Need an application built? You've come to the right place...</h4>
     </div>
 
     <div class="page">
@@ -16,5 +16,8 @@
     </div>
 
     <%= render 'ttt' %>
+
+    <%= render 'skills' %>
+
   </body>
 </html>

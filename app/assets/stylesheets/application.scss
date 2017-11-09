@@ -72,8 +72,7 @@ body {
 }
 
 .page {
-  height: 300px;
-  margin-bottom: 30px;
+  height: 245px;
 }
 
 .parallax-container {
@@ -81,7 +80,7 @@ body {
   width: 100%;
 }
 
-.parallax-one {
+.parallax-image {
   height: 800px;
 }
 
@@ -98,11 +97,6 @@ body {
 }
 
 #intro-header {
-  margin-top: 120px;
-  color: white;
-}
-
-#skills-header {
   color: white;
 }
 
@@ -175,10 +169,10 @@ body {
 	position: absolute;
 	right: 10px;
 	top: 0;
-	font-size: 11px;
+	font-size: 14px;
 	height: 35px;
 	line-height: 35px;
-  color: #424242;
+  color: #212121;
 }
 
 /*To ensure cards load on refresh*/

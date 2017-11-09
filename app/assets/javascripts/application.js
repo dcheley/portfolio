@@ -16,7 +16,7 @@ $(document).ready(function() {
     $(".button-collapse").sideNav();
     $(window).scroll(function() {
       var y_scroll_pos = window.pageYOffset;
-      var scroll_pos_test = 200;
+      var scroll_pos_test = 125;
 
       if (y_scroll_pos > scroll_pos_test) {
         $(".play").fadeIn(5000);
