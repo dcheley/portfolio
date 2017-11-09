@@ -82,18 +82,14 @@ body {
 
 .parallax-image {
   height: 800px;
+  filter: brightness(50%);
 }
 
-.headers {
+.title {
   color: #b71c1c;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-#title {
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   font-size: 30px;
+  padding-top: 15px;
 }
 
 #intro-header {
@@ -173,6 +169,11 @@ body {
 	height: 35px;
 	line-height: 35px;
   color: #212121;
+}
+
+.grey-row {
+  background-color: #e0e0e0;
+  clear: both;
 }
 
 /*To ensure cards load on refresh*/
