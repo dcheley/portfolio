@@ -1,0 +1,36 @@
+<div class="col s12 m10 offset-m1 l10 offset-l1">
+      <p><%= image_tag("profile.jpg", class:"profile-pic") %></p>
+
+      <div class="line">
+        <i class="material-icons" id="about-icon" style="margin-right: 5px;">phonelink_ring</i>
+        <p class="about-info">(416) 910-4130</p>
+      </div>
+
+      <div class="line" style="margin-top: 10px;">
+        <i class="material-icons" id="about-icon" style="margin-right: 5px;">email</i>
+        <p class="about-info">danielcheley@hotmail.com</p>
+      </div>
+
+      <div class="line" style="margin-top: 10px; margin-bottom: 20px;">
+        <%= link_to image_tag('pdf.svg', class:"pdf-icon", id:"about-icon"),
+       "https://bitmakerhq.s3.amazonaws.com/alexa/production/student/resume/1263/Daniel_Cheley_CV.pdf",
+        target:"_blank" %>
+        <p class="about-info">Resume</p>
+      </div>
+
+      <p class="black-text" id="bio-text">My passion for problem solving
+        drives me as a Software Developer to look for creative solutions
+        and suggest alternative methods to help clients solve business issues,
+        pushing me to continuously develop my technical skills each day as
+        I build applications. Currently looking to work for a digital agency
+        delivering innovative applications design and software solutions to
+        clients where I can gain exposure to various projects and developer
+        tools. This would be the ideal environment to leverage my past experience
+        working with a diverse network of talented professionals to deliver on agreed
+        upon specifications within required time frame and budgets.</p>
+
+      <div class="line">
+        <%= link_to image_tag('linkedin.svg', class:"contact-icon"), "https://www.linkedin.com/in/daniel-cheley", target:"_blank" %>
+        <%= link_to image_tag('github.svg', class:"contact-icon"), "https://github.com/dcheley", target:"_blank" %>
+      </div>
+  </div>
