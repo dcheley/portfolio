@@ -1,0 +1,39 @@
+<div class="row" style="margin-top: 40px; margin-bottom: 60px;">
+  <div class="col s12 m12 l10 offset-l1">
+    <div class="divider"></div>
+
+    <div class="quarter">
+      <p><%= image_tag("profile.jpg", class:"profile-pic") %></p>
+
+      <div class="line" style="margin-top: 0; text-align: center;">
+        <%= link_to image_tag('linkedin.svg', class:"contact-icon"), "https://www.linkedin.com/in/daniel-cheley", target:"_blank" %>
+        <%= link_to image_tag('github.svg', class:"contact-icon"), "https://github.com/dcheley", target:"_blank" %>
+        <%= link_to "https://bitmakerhq.s3.amazonaws.com/alexa/production/student/resume/1263/Daniel_Cheley_CV.pdf", target:"_blank", class:"about-link" do %>
+          <p class="pdf-info">
+            <%= image_tag('pdf.svg', class:"contact-icon") %>
+            (CV)
+          </p>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="three-quarters">
+      <div class="line">
+        <i class="material-icons" id="about-icon">phonelink_ring</i>
+        <p class="about-info">(416) 910-4130</p>
+      </div>
+
+      <div class="line" style="margin-top: 20px;">
+        <i class="material-icons" id="about-icon">email</i>
+        <p class="about-info">danielcheley@hotmail.com</p>
+      </div>
+
+      <p class="black-text" id="bio-text">
+        My passion for problem solving drives me as a Software Developer to look
+        for creative solutions and deliver high quality code to help clients solve
+        business issues. I love a challenge and am continuously looking for
+        opportunities to build complex applications.
+      </p>
+    </div>
+  </div>
+</div>

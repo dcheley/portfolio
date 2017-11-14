@@ -23,35 +23,8 @@
     <% end %>
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="/" class="brand-logo center"><%= image_tag('icon-logo.png', class:"icon-logo") %></a>
-        <ul id="nav-mobile" class="left hide-on-small-and-down" style="margin-left: 12%;">
-          <a href="/" class="waves-effect waves-black">INTRO</a>
-          <a href="/pages/skills" class="waves-effect waves-black">SKILLS</a>
-        </ul>
-        <ul id="nav-mobile" class="right hide-on-small-and-down" style="margin-right: 12%;">
-          <a href="/pages/projects" class="waves-effect waves-black">PROJECTS</a>
-          <a href="/contacts/new" class="waves-effect waves-black">ABOUT</a>
-        </ul>
-      </div>
-    </nav>
-
-    <ul id="slide-out" class="side-nav">
-      <a href="/" class="brand-nav-logo" style="background-color: black;"><%= image_tag('icon-logo.png') %></a>
-      <ul class="nav-links">
-        <a href="/" class="waves-effect waves-black">INTRO</a>
-        <a href="/pages/skills" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">code</i>SKILLS</a>
-        <a href="/pages/projects" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">view_carousel</i>PROJECTS</a>
-        <a href="/contacts/new" class="waves-effect waves-black"><i class="material-icons left" style="margin: auto; padding-top: 10px;">perm_identity</i>ABOUT</a>
-      </ul>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons" id="side-nav-button">menu</i></a>
-
     <%= yield %>
 
-    <!--Import jQuery before materialize.min.js-->
-    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
     <%= javascript_include_tag 'materialize.min', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>
