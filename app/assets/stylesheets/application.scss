@@ -74,17 +74,21 @@ body {
 // Contact button
 .btn i {
   font-size: 3.0rem !important;
+  display: inline-block;
 }
 
 .waves-effect.waves-light {
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 60px;
   padding-top: 8px;
-  padding-bottom: 45px;
+  padding-bottom: 40px;
   background-color: transparent !important;
+  color: grey;
   border: solid 2px #b71c1c;
 }
 
 .waves-effect.waves-light:hover {
+  color: white;
   background-color: #b71c1c !important;
 }
 
