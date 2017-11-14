@@ -5,12 +5,14 @@
     <div class="quarter">
       <p><%= image_tag("profile.jpg", class:"profile-pic") %></p>
 
-      <div class="line" style="margin-top: 0;">
+      <div class="line" style="margin-top: 0; text-align: center;">
         <%= link_to image_tag('linkedin.svg', class:"contact-icon"), "https://www.linkedin.com/in/daniel-cheley", target:"_blank" %>
         <%= link_to image_tag('github.svg', class:"contact-icon"), "https://github.com/dcheley", target:"_blank" %>
         <%= link_to "https://bitmakerhq.s3.amazonaws.com/alexa/production/student/resume/1263/Daniel_Cheley_CV.pdf", target:"_blank", class:"about-link" do %>
-          <%= image_tag('pdf.svg', class:"contact-icon") %>
-          <p class="pdf-info">(Resume)</p>
+          <p class="pdf-info">
+            <%= image_tag('pdf.svg', class:"contact-icon") %>
+            (CV)
+          </p>
         <% end %>
       </div>
     </div>
