@@ -2,26 +2,23 @@
 <html>
   <body>
     <div class="parallax-container">
-      <div class="parallax"><%= image_tag('laptop-chill.jpg', class:"parallax-image") %></div>
+      <div class="parallax"><%= image_tag('bw-cool-code.jpeg', class:"parallax-image") %></div>
 
       <a href="/" class="brand-logo center"><%= image_tag('main-logo.png', class:"logo") %></a>
 
       <h4 id="intro-header" style="margin-top: 120px;">Need an application built? You've come to the right place...</h4>
 
-      <a href="/contacts/new" class="waves-effect waves-light btn", style=""><i class="material-icons" id="intro-button">email</i></a>
-    </div>
-
-    <div class="page">
-      <div id="neon-glow">
-        <p style="margin-top: 0;"><a href=""><i class="material-icons large" id="intro-arrow">keyboard_arrow_down</i></p></a>
-      </div>
+      <p style="margin-top: 0;"><i class="material-icons large" id="intro-arrow">keyboard_arrow_down</i></p>
     </div>
 
     <!-- <%= render 'ttt' %> -->
-
-    <%= render 'about' %>
     <%= render 'skills' %>
 
+    <%= render 'about' %>
+
     <%= render 'projects' %>
+
+    <a href="/contacts/new" class="waves-effect waves-light btn", style=""><i class="material-icons" id="intro-button">email</i></a>
+
   </body>
 </html>
