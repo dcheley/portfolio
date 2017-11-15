@@ -4,6 +4,7 @@
  */
 body {
   text-align: center;
+  min-height: 1000px;
 }
 
 .logo {
@@ -153,23 +154,23 @@ body {
 
 .progress-bar {
   position: relative;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .progress-bar div {
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
 }
 
 .progress-bar div span {
   position: absolute;
   font-size: 25px;
-  line-height: 175px;
-  height: 175px;
-  width: 175px;
+  line-height: 75px;
+  height: 75px;
+  width: 75px;
   left: 12.5px;
   top: 12.5px;
   text-align: center;
@@ -181,19 +182,20 @@ body {
   background-color: #e0e0e0;
 }
 
+// These are proportionate to h + w or progress-bar & div
 .progress-bar .rotate {
-  clip: rect(0 100px 200px 0);
+  clip: rect(0 50px 100px 0);
   background-color: #b71c1c;
 }
 
 .progress-bar .left {
-  clip: rect(0 100px 200px 0);
+  clip: rect(0 50px 100px 0);
   opacity: 1;
   background-color: #e0e0e0;
 }
 
 .progress-bar .right {
-  clip: rect(0 100px 200px 0);
+  clip: rect(0 50px 100px 0);
   transform: rotate(180deg);
   opacity: 0;
   background-color: #b71c1c;
@@ -208,13 +210,6 @@ body {
      opacity: 1;
    }
  }
-
-
-@media only screen and (max-width: 990px) {
-  .progress {
-    margin-bottom: 20px;
-  }
-}
 
 .grey-row {
   background-color: #e0e0e0;
@@ -318,13 +313,13 @@ body {
 .contact-icon,
 .plain-icon,
 .skill-icon {
-  height: 40px !important;
+  height: 42px !important;
 }
 
 .skill-icon {
   position: absolute;
-  top: 40px;
-  left: 80px;
+  top: 65px;
+  left: 55px;
   z-index: 1;
 }
 
@@ -420,6 +415,13 @@ body {
     margin-right: 30px;
   }
 }
+
+@media only screen and (max-width: 990px) {
+  .progress {
+    margin-bottom: 20px;
+  }
+}
+
 
 @media only screen and (max-width: 1065px) {
   .skillbar-title {
