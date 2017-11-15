@@ -12,6 +12,10 @@ $(document).ready(function() {
     $('#reappear-animation').hide();
     $('body').fadeIn(6000);
     $('.parallax').parallax();
+    $('.progress-bar').loading();
+    $('#reload').on('click', function () {
+       $('.progress-bar').loading();
+    });
     $(window).scroll(function() {
       var y_scroll_pos = window.pageYOffset;
       var scroll_pos_test = 125;
