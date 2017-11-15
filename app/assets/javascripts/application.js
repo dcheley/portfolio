@@ -23,8 +23,8 @@ $(document).ready(function() {
             width:$(this).attr('data-percent')
           }, 5000);
         });
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
       }
     });
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
   });
 });
