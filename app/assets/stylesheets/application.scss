@@ -156,13 +156,14 @@ body {
 }
 
 .carousel-item .right-side img {
-  height: 500px;
+  height: 550px;
   width: 90% !important;
   position: relative;
   top: -115px;
 }
 
-.carousel-item .contact-icon {
+.carousel-item .contact-icon,
+.carousel-item .plain-icon {
   width: 8% !important;
 }
 
@@ -210,7 +211,8 @@ body {
 
 .lone-icon,
 #about-icon,
-.about-info {
+.about-info,
+.plain-icon {
   display: inline;
   vertical-align: middle;
 }
@@ -238,8 +240,13 @@ body {
 }
 
 .lone-icon,
-.contact-icon {
+.contact-icon,
+.plain-icon {
   height: 40px !important;
+}
+
+.plain-icon:not(:first-child) {
+  margin-left: 8px;
 }
 
 #project-icon {
@@ -276,7 +283,7 @@ body {
 .error-header,
 .error-list,
 .error-msg {
-  color: white;
+  color: #b71c1c;
 }
 
 @media only screen and (max-width: 480px) {
@@ -288,8 +295,6 @@ body {
     font-size: 20px;
   }
 
-  .welcome,
-  .play,
   #skills-header {
     font-size: 16px;
   }
