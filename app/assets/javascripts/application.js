@@ -3,6 +3,7 @@
 //= require turbolinks
 //= require_tree .
 //= require materialize.min
+//= require progress-circles
 $(document).ready(function() {
   //Add turbolinks event listener for jQuery
   $(document).on('turbolinks:load', function() {

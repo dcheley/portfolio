@@ -145,6 +145,77 @@ body {
   color: #212121;
 }
 
+// Circular progress bars
+.position {
+  float: left;
+  margin: 100px 20px;
+}
+
+.progress-bar {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.progress-bar div {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.progress-bar div span {
+  position: absolute;
+  font-size: 25px;
+  line-height: 175px;
+  height: 175px;
+  width: 175px;
+  left: 12.5px;
+  top: 12.5px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.progress-bar .background {
+  background-color: #e0e0e0;
+}
+
+.progress-bar .rotate {
+  clip: rect(0 100px 200px 0);
+  background-color: #b71c1c;
+}
+
+.progress-bar .left {
+  clip: rect(0 100px 200px 0);
+  opacity: 1;
+  background-color: #e0e0e0;
+}
+
+.progress-bar .right {
+  clip: rect(0 100px 200px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: #b71c1c;
+}
+
+@keyframes
+  toggle {
+    0% {
+      opacity: 0;
+    }
+   100% {
+     opacity: 1;
+   }
+ }
+
+
+@media only screen and (max-width: 990px) {
+  .progress {
+    margin-bottom: 20px;
+  }
+}
+
 .grey-row {
   background-color: #e0e0e0;
   clear: both;
@@ -245,8 +316,16 @@ body {
 
 .lone-icon,
 .contact-icon,
-.plain-icon {
+.plain-icon,
+.skill-icon {
   height: 40px !important;
+}
+
+.skill-icon {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  z-index: 1;
 }
 
 .plain-icon:not(:first-child) {
