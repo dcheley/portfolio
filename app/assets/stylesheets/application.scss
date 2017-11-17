@@ -2,6 +2,8 @@
  *= require_tree .
  *= require_self
  */
+ @import 'variables';
+
 body {
   text-align: center;
   min-height: 1000px;
@@ -14,7 +16,7 @@ body {
 
 #intro-arrow {
   margin-top: 75px;
-  color: #d50000;
+  color: $red;
 }
 
 .parallax-container {
@@ -28,7 +30,7 @@ body {
 }
 
 .title {
-  color: #b71c1c;
+  color: $red;
   letter-spacing: 5px;
   font-size: 30px;
   padding-top: 40px;
@@ -85,71 +87,24 @@ body {
   padding-bottom: 40px;
   background-color: transparent !important;
   color: grey;
-  border: solid 2px #b71c1c;
+  border: solid 2px $red;
 }
 
 .waves-effect.waves-light:hover {
   color: white;
-  background-color: #b71c1c !important;
+  background-color: $red !important;
 }
 
-.skillbar {
-	position: relative;
-	display: block;
-	margin-bottom: 15px;
-	width: 100%;
-	background: white;
-  color: white;
-	height: 35px;
-	border-radius: 10px;
-}
-
-.skillbar-title {
-	position: absolute;
-  width: 80px;
-	font-weight: bold;
-	font-size: 13px;
-	border-top-left-radius: 6px;
-	border-bottom-left-radius: 6px;
-}
-
-.skillbar-title span {
-	display: block;
-	background: rgba(0, 0, 0, 0.1);
-	height: 35px;
-	line-height: 35px;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-}
-
-.skillbar-title img {
-  padding-top: 5px;
-  padding-right: 3px;
-  height: 32px;
-  width: 32px;
-}
-
-.skillbar-bar {
-	height: 35px;
-	width: 0px;
-	border-radius: 10px;
-  padding-top: 7px;
-}
-
-.skill-bar-percent {
-	position: absolute;
-	right: 10px;
-	top: 0;
-	font-size: 14px;
-	height: 35px;
-	line-height: 35px;
-  color: #212121;
+.full-width {
+  width: 80%;
+  margin: auto;
+  clear: both;
 }
 
 // Circular progress bars
 .position {
   float: left;
-  margin: 30px 30px;
+  margin: 20px 50px;
 }
 
 .progress-bar {
@@ -185,20 +140,20 @@ body {
 // These are proportionate to h + w or progress-bar & div
 .progress-bar .rotate {
   clip: rect(0 50px 100px 0);
-  background-color: #8B0000;
+  background-color: $dark-red;
 }
 
 .progress-bar .left {
   clip: rect(0 50px 100px 0);
   opacity: 1;
-  background-color: #e0e0e0;
+  background-color: $light-grey;
 }
 
 .progress-bar .right {
   clip: rect(0 50px 100px 0);
   transform: rotate(180deg);
   opacity: 0;
-  background-color: #8B0000;
+  background-color: $dark-red;
 }
 
 @keyframes

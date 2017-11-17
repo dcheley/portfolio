@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('body').fadeIn(6000);
     $('.parallax').parallax();
     $('.progress-bar').loading();
-    $('#reload').on('click', function () {
+    $('.progress-bar.position').on('hover', function () {
        $('.progress-bar').loading();
     });
     $(window).scroll(function() {
