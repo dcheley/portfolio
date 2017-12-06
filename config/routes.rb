@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get "/pages/*page" => "pages#show"
 
-  resources :contacts, only: [:new, :create]
+  resources :contacts, only: [:create]
 end

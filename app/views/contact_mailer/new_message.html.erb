@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>New message from <%= @contact.name %> at <%= @contact.organization %> below:</p>
+
+    <p><%= @contact.message %></p>
+
+    <p>Contact info:</p>
+    <p><%= @contact.email %></p>
+    <p><%= @contact.phone %></p>
+  </body>
+</html>
