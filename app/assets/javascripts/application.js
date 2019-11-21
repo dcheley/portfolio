@@ -16,22 +16,15 @@ $(document).ready(function() {
     $('.progress-bar.position').on('hover', function () {
        $('.progress-bar').loading();
     });
-    $(window).scroll(function() {
-      var y_scroll_pos = window.pageYOffset;
-      var scroll_pos_test = 100;
-
-      if (y_scroll_pos > scroll_pos_test) {
-        $('#intro-arrow').fadeIn(4000);
-        $('#reappear-animation').fadeIn(5000);
-        $('.skillbar').each(function(){
-          $(this).find('.skillbar-bar').animate({
-            width:$(this).attr('data-percent')
-          }, 5000);
-        });
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
-        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-        $('.modal').modal();
-      }
+    $('#intro-arrow').fadeIn(4000);
+    $('#reappear-animation').fadeIn(5000);
+    $('.skillbar').each(function(){
+      $(this).find('.skillbar-bar').animate({
+        width:$(this).attr('data-percent')
+      }, 5000);
     });
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
   });
 });
