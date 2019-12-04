@@ -98,7 +98,7 @@ body {
 }
 
 .full-width {
-  width: 80%;
+  width: 100%;
   margin: auto;
   clear: both;
 }
@@ -106,7 +106,7 @@ body {
 // Circular progress bars
 .position {
   float: left;
-  margin: 20px 50px;
+  margin: 20px 72px;
 }
 
 .progress-bar {
@@ -368,12 +368,20 @@ body {
 }
 
 @media only screen and (max-width: 990px) {
+  .position {
+    float: left;
+    margin: 20px 40px;
+  }
   .progress {
     margin-bottom: 20px;
   }
 }
 
 @media only screen and (max-width: 1065px) {
+  .position {
+    float: left;
+    margin: 20px 50px;
+  }
   .skillbar-title {
     width: 65px;
   }
